@@ -32,6 +32,6 @@ N-tier structure (DAO, Service, Controller).
 <li>Fork and clone this project from repository to your laptop.</li>
 <li>Set up MySQL and create necessary tables by using file resources/init_db.sql.</li>
 <li>Edit file taxi/util/ConnectionUtil with your field (USERNAME, PASSWORD, CONNECTION_URL).</li>
-<li>Install and add Tomcat 9.0.65 to configuration.</li>
+<li>Install and add Tomcat 9.0.50 to configuration.</li>
 <li>Run project.</li>
 </lu>
