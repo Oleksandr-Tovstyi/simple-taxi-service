@@ -9,27 +9,29 @@ This simple application is for storing cars, drivers and manufacturers models wi
 </lu>
 
 # 📖Structure
+N-tier structure (DAO, Service, Controller).
 <lu>
-<li>N-tier structure (DAO, Service, Controller).</li>
-<li>Database with relations between tables one-to-one, one-to-many, many-to-many.</li>
+<li>DAO - CRUD operation with database.</li>
+<li>Service - business logic of application.</li>
+<li>Controller - accept requests and send responses to browser.</li>
 </lu>
 <img src="img.jpg">
 
 # 🧬Technologies
 <lu>
 <li>Java</li>
-<li>Java (javax.servlet)</li>
-<li>MySQL</li>
 <li>JDBC</li>
-<li>Tomcat</li>
-<li>Maven</li>
+<li>JSP</li>
+<li>MySQL 8.0.22</li>
+<li>Tomcat 9.0.50</li>
+<li>Maven 3.8.5</li>
 </lu>
 
 # ⚙️How to launch the project
 <lu>
 <li>Fork and clone this project from repository to your laptop.</li>
 <li>Set up MySQL and create necessary tables by using file resources/init_db.sql.</li>
-<li>Edit file taxi/util/ConnectionUtil with your field (USERNAME, PASSWORD, CONNECTION_URL), and you can change URL if it is needed.</li>
+<li>Edit file taxi/util/ConnectionUtil with your field (USERNAME, PASSWORD, CONNECTION_URL).</li>
 <li>Install and add Tomcat 9.0.65 to configuration.</li>
 <li>Run project.</li>
 </lu>
